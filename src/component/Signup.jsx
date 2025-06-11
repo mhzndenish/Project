@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiMail,HiUser, HiUserAdd, HiLockClosed, HiAcademicCap } from "react-icons/hi";
 import "../css/signup.css"; // Include necessary CSS styles
 import { useNavigate } from "react-router-dom";
-import { authService, initiateOAuth2Login, signUpUser } from "./Services/apiService";
+import {  initiateOAuth2Login, signUpUser } from "./Services/apiService";
 import "../css/validation/Validation.css";
 
 const Signup = () => {
